@@ -1,0 +1,20 @@
+{
+	"player" : {
+		"visual_name": "Player",
+		"description": "The player is the person playing the game - That's you!",
+
+		"GameObjectComp" : {},
+		
+		"StatisticSystemComp": {
+			"Health" : {
+				"Statistic": {
+					"Max": 100
+				}
+			}
+		},
+
+		"PlayerMovementComp2D" : {
+			"speed": 10
+		}
+	},
+}
